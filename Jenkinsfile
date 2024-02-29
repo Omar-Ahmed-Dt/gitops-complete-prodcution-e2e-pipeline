@@ -14,7 +14,7 @@
         }
         stage("Checkout from SCM"){
             steps {
-                git 'https://github.com/Omar-Ahmed-Dt/gitops-complete-prodcution-e2e-pipeline.git'
+                git 'https://github.com/Omar-Ahmed-Dt/gitops-complete-prodcution-e2e-pipeline'
             }
 
         }
