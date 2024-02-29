@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - dmancloud/complete-prodcution-e2e-github-actions:v0.1.59

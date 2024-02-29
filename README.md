@@ -1,0 +1,1 @@
+# gitops-argocd-image-updater

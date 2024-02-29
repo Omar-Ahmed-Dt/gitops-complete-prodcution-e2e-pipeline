@@ -1,0 +1,11 @@
+---
+namespace: development
+replicas:
+  - name: complete-prodcution-e2e-deployment
+    count: 2
+
+images:
+  - name: dmancloud/complete-prodcution-e2e-github-actions
+    newTag: v0.1.0
+resources:
+  - ../../../my-app-base
