@@ -41,7 +41,7 @@
                 // sh "git push https://github.com/Omar-Ahmed-Dt/gitops-complete-prodcution-e2e-pipeline main"
 
                 withCredentials([gitUsernamePassword(credentialsId: 'github-pat' , gitToolName: 'Default')]) {
-                    sh "git push https://github.com/Omar-Ahmed-Dt/gitops-complete-prodcution-e2e-pipeline main"
+                    sh "git push https://github.com/Omar-Ahmed-Dt/gitops-complete-prodcution-e2e-pipeline master"
                     }
 
             }
