@@ -14,7 +14,7 @@
         }
         stage("Checkout from SCM"){
             steps {
-                git 'https://github.com/Omar-Ahmed-Dt/gitops-complete-prodcution-e2e-pipeline'
+                git 'https://github.com/Omar-Ahmed-Dt/gitops-complete-prodcution-e2e-pipeline.git'
             }
 
         }
@@ -38,7 +38,7 @@
                     git add deployment.yaml
                     git commit -m "Updated Deployment Manifest"
                 """
-                sh "git push https://github.com/Omar-Ahmed-Dt/gitops-complete-prodcution-e2e-pipeline.git main"
+                sh "git push https://github.com/Omar-Ahmed-Dt/gitops-complete-prodcution-e2e-pipeline main"
             }
 
 
